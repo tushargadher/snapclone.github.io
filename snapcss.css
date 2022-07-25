@@ -1,0 +1,288 @@
+/*css reset*/
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'avenir next', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+/* navbar */
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background: rgb(26, 25, 25);
+    border-bottom: 1px solid rgb(106, 105, 105);
+}
+
+/* logolink */
+#logolink img {
+    margin: 5px;
+    height: 40px;
+    padding: 5px;
+    border: 2px solid rgb(26, 25, 25);
+    background-color: rgb(26, 25, 25);
+    border-radius: 8px;
+
+}
+
+#logolink img:hover {
+
+    background-color: yellow;
+    border: 2px solid yellow;
+    border-radius: 8px;
+}
+
+#navbar ul {
+    display: flex;
+    text-decoration-style: none;
+    margin: auto;
+
+
+}
+
+#navbar ul li img {
+    list-style: none;
+    margin: 5px;
+    height: 40px;
+    padding: 8px;
+    border: 2px solid rgb(26, 25, 25);
+    background-color: rgb(26, 25, 25);
+    border-radius: 8px;
+
+}
+
+#navbar ul li img:hover {
+
+    background-color: rgb(75, 74, 74);
+
+    /* border-radius:8px; */
+}
+
+#navbar ul li a {
+    display: block;
+    text-decoration: none;
+
+
+}
+
+#left a {
+    color: black;
+    background-color: white;
+    padding: 6px;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 6px;
+    margin-right: 15px;
+}
+
+#left a:hover {
+    cursor: pointer;
+
+}
+
+/* section one */
+#sec1 {
+    display: flex;
+    border: 1px soild black;
+    height: 800px;
+    background-color: rgb(26, 25, 25);
+}
+
+#sec1 .profile img{
+  
+    display: block;
+       
+    width: 310px;
+    height: 600px;
+    margin-top: 30px;
+    margin-left: 300px;
+    border: 10px solid rgb(75, 74, 74);
+    border-radius: 5px;
+    border-radius: 20px;
+}
+.acclink{
+    display: flex;
+
+}
+
+#sec1 .icons{
+
+    display: flex;
+    border: 3px;
+    border-radius: 5px;
+    height: 60px;
+    background-color: rgb(57, 56, 56);
+    margin-top: 280px;
+    margin-left: -330px;
+}
+#sec1 .icons a img{
+   margin-top: 10px;
+   margin-left: 4px;
+   padding: 2px;
+   height: 40px;
+   width: 40px;
+   border-radius: 45%;
+}
+
+#sec1 .acclink img{
+    
+    display: block;
+    /* margin: auto; */
+    
+    width: 260px;
+    height: 130px;
+    margin: 20px;
+    margin-top: 110px;
+    margin-left: -20px;
+ 
+}
+#sec1 .acclink .snapqr{
+height: 200px;
+ 
+}
+#snapname{
+    height: 200px;
+}
+
+#snapname .p1{
+   display: block;
+   color: white;
+   font-size: 1.6rem;
+   margin-top: 130px;
+   margin-left: -60px;
+}
+#snapname .p2{
+   display: block;
+   color: white;
+   font-size: 1.1rem;
+   margin-top: 20px;
+   margin-left: -60px;
+}
+input{
+    width: 200px;
+    height: 20px;
+}
+::placeholder{
+    color: blue;
+}
+#place{
+   border: 2px solid rgb(75, 74, 74);
+   background-color: rgb(75, 74, 74);
+   border-bottom-left-radius: 20px;
+   border-top-left-radius: 20px;
+   height: 25px;
+   color: white;
+   margin-top: 14px;
+   margin-left: 12px;
+   padding: 4px;
+
+}
+.btn{
+    border: 2px solid rgb(101, 99, 99);
+    background-color: rgb(101, 99, 99);
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 37px;
+    width: 100px;
+    color: white;
+    margin-top: 14px;
+    margin-right: 12px;
+    padding: 4px;
+
+}
+.btn:hover{
+    cursor: pointer;
+}
+#strimg{
+    display: block;
+}
+#strimg img{
+    display: block;
+
+    width: 150px;
+    height: 255px;
+    border-radius: 14px;
+    margin-top: 15px;
+    margin-left: -670px;
+    filter: brightness(55%);
+
+
+}
+
+#strimg #strp{
+   color: white;
+   margin-top: 360px;
+   margin-left: -670px;
+}
+/* section two */
+#sec2 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+#sec2 .box{
+    flex-direction: column;
+}
+#sec2 .box ul{
+    display: flex;
+    margin-left: 200px;
+}
+#sec2 .box ul li {
+    display: block;
+    margin: 10px 10px 10px 10px;
+    padding: 40px;
+
+}
+#sec2 .box ul li p{
+   padding: 5px;
+}
+
+/* policy section */
+#policy{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100%;
+    background-color:rgb(75, 74, 74);
+    color: white;
+}
+#policy .poli {
+    padding: 20px;
+
+    margin-left: 180px;
+
+}
+#policy .poli a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(26, 25, 25);
+    color: white;
+    text-align: center;
+    padding: 12px;
+
+}
+footer a{
+    margin: auto;
+    text-decoration: none;
+    padding: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: yellow;
+    color: black;
+    border: 2px soild yellow;
+    border-radius: 25px;
+    font-size: 0.9rem;
+
+}
